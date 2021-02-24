@@ -1,0 +1,31 @@
+Exercicio 1 ================================
+SELECT COUNT(p.idProcesso), s.dsStatus
+  FROM tb_Processo p
+ INNER JOIN tb_Status s ON p.idStatus = s.idStatus
+ GROUP BY s.dsStatus
+=============================================
+
+Exercicio 2==================================
+ SELECT p.nroProcesso,
+		x.dtAndamento,
+		x.idProcesso
+   FROM ( 
+		SELECT TOP 1 dtAndamento,
+		       idProcesso
+		  FROM tb_Andamento
+		 ORDER BY DESC) x
+  INNER JOIN tb_Processo p ON x.idProcesso = p.idProcesso
+ WHERE p.DtEncerramento IS NOT NULL AND YEAR(p.DtEncerramento) = 2013
+=============================================
+
+Exercicio 3==================================
+ SELECT COUNT(*)
+   FROM tb_Processo
+  GROUP BY DtEncerramento
+  HAVING COUNT(*) > 5
+=============================================
+
+Exercicio 4==================================
+ SELECT REPLICATE('0', 12 - LEN(idProcesso)) + idProcesso as idProcesso
+   FROM tb_Processo
+=============================================
