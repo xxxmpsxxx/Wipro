@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wipro.Api", "Wipro.Api\Wipro.Api.csproj", "{B6930302-BC59-4C9B-B8CB-28890D187637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wipro.Service", "Wipro.Service\Wipro.Service.csproj", "{14F70F0F-CC66-4187-AD3A-0697B4379607}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6930302-BC59-4C9B-B8CB-28890D187637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6930302-BC59-4C9B-B8CB-28890D187637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6930302-BC59-4C9B-B8CB-28890D187637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6930302-BC59-4C9B-B8CB-28890D187637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F70F0F-CC66-4187-AD3A-0697B4379607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F70F0F-CC66-4187-AD3A-0697B4379607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F70F0F-CC66-4187-AD3A-0697B4379607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F70F0F-CC66-4187-AD3A-0697B4379607}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A30F600D-2791-423E-886E-8CE58523C4E6}
+	EndGlobalSection
+EndGlobal
